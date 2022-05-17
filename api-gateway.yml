@@ -31,11 +31,11 @@ zuul:
       stripPrefix: true
     cart-command-service:
       path: /cart-command/**
-      serviceId: cart-command-service
+      serviceId: shopping-cart-command-service
       stripPrefix: true
     cart-query-service:
       path: /cart-query/**
-      serviceId: cart-query-service
+      serviceId: shopping-cart-query-service
       stripPrefix: true
 
 ribbon:
